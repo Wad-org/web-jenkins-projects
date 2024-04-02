@@ -16,7 +16,7 @@ resource "aws_instance" "jenkins-ec2" {
 
 #Jenkins Security Group Resource
 resource "aws_security_group" "jenkins-sg" {
-  name        = "jenkins-sg"
+  name        = "jenkins-sg bonnie"
   description = "Allow Port 22 and 8080"
 
   ingress {

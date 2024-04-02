@@ -14,12 +14,12 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "devtf-key"
+  default = "duqtf-key"
   type    = string
 }
 
 variable "bucket" {
-  default = "jenkins-s3-bucket-etechapp"
+  default = "jenkins-s3-bucket-bonnie"
   type    = string
 }
 
